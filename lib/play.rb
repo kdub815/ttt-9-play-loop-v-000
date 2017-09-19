@@ -40,6 +40,6 @@ turns = 0
 def play(board)
   until turns == 9
     turn(board)
-    iturns += 1
+    turns += 1
   end
 end
