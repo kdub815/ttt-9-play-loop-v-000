@@ -36,13 +36,10 @@ def turn(board)
 end
 
 # Define your play method below
-turns = 9
-
+turns = 0
 def play(board)
-loop do
-  turns += 1
-  turn(board)
-  if turns >= 10
-    break
+  until turns == 9
+    turn(board)
+    iturns += 1
   end
 end
